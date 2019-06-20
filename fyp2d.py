@@ -85,7 +85,7 @@ def iWavelet_1(image):
 	out=pywt.idwt(iamge,'db10')
 
 def wavelet_2D(image):
-	W=pywt.dwt2(image,'db10')#why haar
+	W=pywt.dwt2(image,'db10')
 	#out=np.asarray(W,dtype=np.float64)
 	#return out
 	return W
@@ -312,5 +312,3 @@ while(count!=0):
 	
 
 	count=count-1
-#absolute sparse
-# so Show all the results(even the bad one) and why is it bad. 
